@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Scope+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>Lakshay Sharma</title>
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="CSS/homepage.css">
+  </head>
+  <body>
+    <div id="navigationBar">
+      <h2 id="titleName">Lakshay Sharma</h2>
+      <nav>
+        <a href="#About">About</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </div>
+      <div id="intro-heading" class="textCenter headings">
+        <div class="insideText" class="textCenter">
+          <h1>
+            HI, I'M LAKSHAY!
+          </h1>
+          <h3>
+            Student Devloper From Atlanta, GA
+          </h3>
+        </div>
+      </div>
+      <div id="About" class="textCenter headings">
+        <div class="insideText">
+          <h2>About Me</h2>
+          <img id="profilePicture" src="IMG/lakshay.png">
+          <p>
+            I'm Lakshay Sharma, a name that appears only once in my university's student database. I am a senior at the University of Georgia in Athens, GA
+            majoring in Computer Science. One of the key highlights of my life is my love for programming. I love creating functional programs like this one right here.
+            Apart from that, I have travelled the world to the point where it is like a drug for me. Believe it or not, I have lived more years of my life outside of the
+            country I was born and raised in. Mind-boggling isn't it? Travelling and living around the world has given me a unique perspective because not many people
+            have gotten the same exposure as I have. I am very fortunate to have experienced everything I have till date because it allows me to see the world in different
+            lights.
+          </p>
+        </div>
+      </div>
+      <div id="Portfolio" class="textCenter headings">
+        <h2>Portfolio</h2>
+      </div>
+      <div id="Skills" class="textCenter headings">
+        <h2>My Skills</h2>
+      </div>
+      <div id="Contact" class="textCenter headings">
+        <h2>Contact Me</h2>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <span class="license">Copyright &copy Lakshay Sharma 2017</span>
+            </div>
+            <div class="col-md-4">
+              <ul class="socialMedia">
+                <li><a href="#"> <i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"> <i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"> <i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"> <i class="fa fa-envelope"></i></a></li>
+                <li><a href="#"> <i class="fa fa-github"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>

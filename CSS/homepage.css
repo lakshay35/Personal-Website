@@ -1,0 +1,111 @@
+nav {
+  float: right;
+  width: auto;
+  word-spacing: 10px;
+}
+
+nav a {
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px;
+  color: #FFFFFF;
+}
+
+section {
+}
+
+nav a:hover {
+  background-color: #FFFFFF;
+  color: #93D7FF;
+    text-decoration: none;
+}
+
+body {
+  background-color: #93D7FF;
+  margin: 0;
+}
+
+#titleName {
+  font-family: 'Scope One', serif;
+  width: auto;
+  color: #FFFFFF;
+  float: left;
+}
+
+#navigationBar {
+  padding-top: 2%;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 90%;
+  margin-left: 5%;
+  overflow: hidden;
+}
+
+#profilePicture {
+  border-radius: 50%;
+}
+
+.insideText {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 7%;
+}
+
+#intro-heading {
+  background-image: url("http://techlatino.org/wp-content/uploads/2015/12/banner_image_original_1434478567.jpg");
+  background-repeat: no-repeat;
+}
+
+.headings {
+  font-family: 'PT Serif', serif;
+  color: #FFFFFF;
+  font-size: 30px;
+  width: 100%;
+  height: 100vh;
+  display: table;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+.textCenter {
+  text-align: center;
+}
+
+#intro-heading h3 {
+  font-family: 'Scope One', serif;
+}
+
+#intro-heading h1 {
+  font-family: 'PT Serif', serif;
+  letter-spacing: 3px;
+}
+
+.socialMedia li a:hover {
+  text-decoration: none;
+}
+
+.socialMedia {
+  list-style: none;
+}
+
+.socialMedia li {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+}
+
+.socialMedia li a {
+  padding: 12px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+footer {
+  padding-bottom: 2%;
+}
