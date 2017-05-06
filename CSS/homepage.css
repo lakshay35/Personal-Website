@@ -2,45 +2,50 @@ nav {
   float: right;
   width: auto;
   word-spacing: 10px;
+  margin-top: 1%;
 }
 
 nav a {
   letter-spacing: 2px;
+  font-family: 'Scope One', serif;
   text-decoration: none;
-  font-size: 18px;
-  padding: 15px;
-  color: #FFFFFF;
+  font-size: 20px;
+  padding: 25px;
+  color: #384148;
 }
 
-section {
-}
 
 nav a:hover {
-  background-color: #FFFFFF;
   color: #93D7FF;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body {
-  background-color: #93D7FF;
   margin: 0;
 }
 
 #titleName {
-  font-family: 'Scope One', serif;
-  width: auto;
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 50%;
+  padding: 5px;
   color: #FFFFFF;
   float: left;
+  background-color: #384148;
+}
+
+#titleName:hover {
+  background-color: #93D7FF
 }
 
 #navigationBar {
-  padding-top: 2%;
   position: fixed;
+  padding: 1%;
   top:0;
   left:0;
-  width: 90%;
-  margin-left: 5%;
-  overflow: hidden;
+  width: 100%;
+  height: 11vh;
+  background-color: #FFFFFF;
+  box-shadow: 0px 1px 0px #eee;
 }
 
 #profilePicture {
@@ -50,21 +55,37 @@ body {
 .insideText {
     display: table-cell;
     vertical-align: middle;
-    padding: 7%;
+
+}
+
+#aboutText {
+  padding: 7%;
 }
 
 #intro-heading {
   background-image: url("http://techlatino.org/wp-content/uploads/2015/12/banner_image_original_1434478567.jpg");
   background-repeat: no-repeat;
+  margin-top: 0;
+  height: 100vh;
+  width: 100%;
+  color: black;
+  display: table;
 }
 
 .headings {
   font-family: 'PT Serif', serif;
-  color: #FFFFFF;
+  color: black;
   font-size: 30px;
   width: 100%;
   height: 100vh;
   display: table;
+  margin-top: 9%;
+}
+
+.sections {
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-family: 'Lora', serif;
 }
 
 p {
@@ -78,15 +99,45 @@ p {
 
 #intro-heading h3 {
   font-family: 'Scope One', serif;
+  font-size: 40px;
 }
 
 #intro-heading h1 {
   font-family: 'PT Serif', serif;
   letter-spacing: 3px;
+  font-size: 60px;
 }
 
-.socialMedia li a:hover {
-  text-decoration: none;
+.text {
+  color: black;
+}
+
+.fa:hover {
+  background-color: #384148;
+}
+
+.fa {
+  color: white;
+}
+
+.fa-envelope {
+    background-color: #dd4b39;
+}
+
+.fa-instagram {
+    background-color: #125688;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+}
+
+.fa-linkedin {
+  background-color: #007bb5;
+}
+
+.fa-github {
+  background-color: #24292e;
 }
 
 .socialMedia {
@@ -96,16 +147,51 @@ p {
 .socialMedia li {
   display: inline;
   float: left;
-  margin-right: 10px;
+  margin-right: 10%;
 }
 
-.socialMedia li a {
-  padding: 12px;
-  background-color: #FFFFFF;
-  border-radius: 50%;
-  font-size: 25px;
+.fa {
+    padding: 40%;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
 }
 
 footer {
-  padding-bottom: 2%;
+  height: 12vh;
+  padding: 1.5%;
+  background-color: #384148;
+  color: #FFFFFF;
+}
+
+
+.typed-cursor{
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-moz-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+
+#skillsSection {
+  font-family: "proxima-nova";
+  font-size: 16px;
+  text-align: left;
+  overflow: hidden;
 }
